@@ -1,0 +1,250 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background: #d7d7d7;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.header {
+    width: 100vw;
+    height: 80px;
+    background: #d7d7d7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header .input-container .search-icon {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    margin-left: 14px;
+    margin-top: 3px;
+}
+
+.header .input-container .tips-icon {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    margin-right: 14px;
+    margin-top: 3px;
+}
+
+.header input {
+    width: 60vw;
+    height: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 2vw;
+    border: thin solid black;
+    position: relative;
+}
+
+.header input:focus {
+    outline: 1px solid #51c9ff;
+    background: rgba(3, 16, 28, 0);
+}
+
+.content-container {
+    height: 100vh;
+    background: #d7d7d7;
+    margin-bottom: 80px;
+    padding-top: 10px;
+}
+
+.swiper-container {
+    width: 95vw;
+    height: 200px;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 5px;
+    position: relative;
+}
+
+.swiper-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.swiper-container .title {
+    width: 80%;
+    ;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.grid-container {
+    text-align: center;
+    width: 95vw;
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+.grid-container .grid-item {
+    width: 100%;
+    text-align: center;
+
+}
+
+.grid-container .grid-item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    border: thin solid rgb(172, 172, 172);
+}
+
+.grid-item p {
+    margin: 10px;
+}
+
+
+.like-container {
+    width: 95vw;
+    margin: auto;
+    border-top: 2px solid black;
+    margin-bottom:20px ;
+}
+
+.like-container .info-header {
+    height: 30px;
+    /* background-color: yellow; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.like-container .info-header .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.info-header .avatar-container {
+    width: 10%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.info-header .info-content {
+    width: 30%;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.info-header .status-label {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #c6d8e2;
+}
+
+.like-container .content {
+    width: 95%;
+    height: 150px;
+    background: #ff5757;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* flex-wrap: wrap; */
+}
+
+.like-container .content .title {
+    font-size: 16px;
+    color: #fff;
+    background: #ff5757;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.like-container  .other-info {
+    margin: 10px 20px 0px 20px;
+}
+
+.like-container .other-info span{
+    margin-right: 10px;
+}
+
+
+
+.footer {
+    width: 100vw;
+    height: 80px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+.menu-container {
+    height: 100%;
+}
+
+.menu-container ul {
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    padding-top: 17px;
+}
+
+.menu-container ul li {
+    height: 100%;
+    float: left;
+    color: black;
+    width: 25%;
+    text-align: center;
+    /* line-height: 80px; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-container .icon img {
+    width: 30px;
+    height: 30px;
+    ;
+}
+
+.menu-container .icon .title {
+    color: black;
+    height: 40px;
+}
+
+.menu-container .icon p {
+    color: #fff;
+    margin: 0;
+}
